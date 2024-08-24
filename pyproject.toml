@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docker-fastapi-vilt-b32"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Giao <daniel.giao@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.44.2"
+torch = "^2.4.0"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
