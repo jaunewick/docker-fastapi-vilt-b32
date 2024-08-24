@@ -10,6 +10,7 @@ python = "^3.12"
 transformers = "^4.44.2"
 torch = "^2.4.0"
 pillow = "^10.4.0"
+fastapi = {extras = ["standard"], version = "^0.112.1"}
 
 
 [tool.poetry.group.dev.dependencies]
